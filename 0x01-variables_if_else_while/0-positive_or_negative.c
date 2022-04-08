@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* main - entry point
+* main - Entry point
 *
 * return: Always 0 (success/correct)
 */
@@ -12,10 +12,10 @@ int main(void)
 {
 int n;
 
-strand(time(0));
+srand(time(0));
 n=rand() - RAND_MAX / 2;
 
-if (n=0)
+if (n == 0)
 {
 printf("%i is zero\n", n);
 }
