@@ -1,14 +1,10 @@
 #include <unistd.h>
 
-
-
 /**
-
- * main - Function begins
-
- * Return: Function ends
-
- */
+* main - Function begins
+*
+* Return: Function ends
+*/
 
 int main(void)
 
