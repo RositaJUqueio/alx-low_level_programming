@@ -1,45 +1,25 @@
-nclude <stdio.h>                                                                                 
-
-                                                                                                   
+#include <stdio.h>                                                                                 
 
 /**                                                                                                
- *
- * * main - Entry point                                                                               
- *
- * *                                                                                                  
- *
- * * Return: Always 0 (Success/correct)                                                               
- *
- * */                                                                                                 
+* main - Entry point                                                                               
+*
+* Return: Always 0 (Success/correct)                                                               
+*/                                                                                                 
 
 int main(void)                                                                                     
-
-	                                                                                                   
-
 {                                                                                                  
-
-	char alphabet;                                                                                     
-
-	                                                                                                   
-
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)                                                  
-
-	{                                                                                                  
-
-		putchar(alphabet);                                                                                 
-
-	}                                                                                                  
+char alphabet;                                                                                     
 
 	                                                                                                   
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)                                                  
+{                                                                                                  
+putchar(alphabet);                                                                                 
+}                                                                                                  
 
-	putchar('\n');                                                                                     
-
+putchar('\n');
+	  
+return (0);                                                                                        
 	                                                                                                   
-
-	return (0);                                                                                        
-
-	                                                                                                   
-
 }           
 
 
