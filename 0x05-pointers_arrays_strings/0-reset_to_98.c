@@ -6,7 +6,7 @@
  * Return: 0 meabs code is sucessful
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 *n = 98;
 }
