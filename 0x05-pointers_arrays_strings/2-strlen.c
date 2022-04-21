@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
- * _strlen function that returns the length of a string. 
- * @s : is the input
+ * _strlen - function returns the length of a string.
+ * @s: pointer to string
  * Return: void (means code is sucessful)
  */
 
@@ -18,5 +18,5 @@ string_length++;
 
 }
 
-return(string_length);
+return (string_length);
 }
