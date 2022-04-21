@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- * main - code creates function returns the length of a string.
- * s : is the input
- * Return: 0 means code is sucessful
+ * _strlen function that returns the length of a string. 
+ * @s : is the input
+ * Return: void (means code is sucessful)
  */
 
 int _strlen(char *s)
@@ -12,11 +12,11 @@ int _strlen(char *s)
 
 int string_length = 0;
 
-while (*s ! = 0)
+while (s[string_length])
 {
 string_length++;
-s++;
+
 }
 
-return(length);
+return(string_length);
 }
