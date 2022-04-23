@@ -4,18 +4,17 @@
  * * _strcmp - compares two strings
  * @s1: input parameter
  * @s2: input parameter
- * Return: void
+ * Return: 0
  */  
 int _strcmp(char *s1, char *s2)
 {
+int i = 0;
+int j = 0;
 
-int a = 0;
-int b = 0;
-
-while (s1[a] != '\0' && b == 0)
+while (s1[i] != '\0' && j == 0)
 {
-b = s1[a] - s2[a];
-a++;
+j = s1[i] - s2[i];
+i++;
 }
-return (b);
+return (0);
 }
