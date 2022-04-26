@@ -8,7 +8,6 @@
  *
  * Return: nothing
  */
-
 void print_diagsums(int *a, int size)
 {
 int b, sum1 = 0, sum2 =0;
