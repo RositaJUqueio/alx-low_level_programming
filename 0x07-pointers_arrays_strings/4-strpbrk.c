@@ -2,7 +2,7 @@
 
 /** 
  * *_strpbrk - search a string for any of a set of bytes                                                   
- * *@s: source string
+ * @s: source string
  * @accept: accepted characters
  *
  * Return: pointer to the byte 
@@ -14,7 +14,6 @@ int i = 0, j;
 while (s[i])
 {
 j = 0;
-
 while (accept[j])
 {
 if (s[i] == accept[j])
