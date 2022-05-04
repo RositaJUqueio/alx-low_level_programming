@@ -4,7 +4,7 @@
 
 /**
  * create_array- of chars,& initializes it with a specific char.
- * Returns NULL if size = 0
+ * @Return: NULL if size = 0
  * @size: unsigned int type
  * @c: char type
  * Returns a pointer to the array, or NULL if it fails
