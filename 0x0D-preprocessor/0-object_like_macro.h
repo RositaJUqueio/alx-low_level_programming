@@ -4,7 +4,7 @@
 /*
  * File name: 0-object_like_macro.h
  * Author: RJ Uqueio 
- * Description: Header file that defines a macro named
+ * Description: Header file that defines a macro named SIZE
  * SIZE as an abbreviation for the token 1024.
  */
 
