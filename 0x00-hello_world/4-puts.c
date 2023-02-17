@@ -1,13 +1,14 @@
-#include stdio.h
+#include <stdio.h>
 /*
- * C program that prints exactly "Programming is like building a multilingual puzzle,
+ * Description: C program that prints exactly 
+ * "Programming is like building a multilingual puzzle,
  *  followed by a new line usinf puts function.
  *
  * return 0
  */
 
-int main(){
-	puts("/"Programming is like building a multilingual puzzle");
+int main(void){
+	puts("\Programming is like building a multilingual puzzle");
 	
-	return 0;
+	return (0);
 }
