@@ -3,7 +3,7 @@
  * Auth: Rosita J Uqueio
  */
 
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - prints  and that piece of art is useful" 
