@@ -11,8 +11,6 @@
 
 int print_last_digit(int j)
 {
-#define lastdigit (j % 10)
-
-	_putchar(lastdigit);
-	return (lastdigit);
+	_putchar(j % 10);
+	return (j % 10);
 }
