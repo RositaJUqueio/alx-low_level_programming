@@ -11,7 +11,7 @@
 
 int print_last_digit(int j)
 {
-#define Lastdigit (j % 10)
+#define lastdigit (j % 10)
 
 	_putchar(lastdigit);
 	return (lastdigit);
