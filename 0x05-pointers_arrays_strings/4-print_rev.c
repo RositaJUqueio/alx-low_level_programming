@@ -12,9 +12,10 @@ void print_rev(char *s)
 {
 	int len, i;
 
+	i = 0;
 	len = 0; /* string length */
 
-	while (s[i++] != '\0')
+	while (s[i++] != 0)
 		len++; /* len now stores the number of chars in s*/
 
 	for (i = len - 1; i >= 0; i--)
