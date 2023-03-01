@@ -15,7 +15,7 @@ void print_rev(char *s)
 	len = 0; /* string length */
 
 	while (s[i++] != 0)
-		len++ /* len now stores the number of chars in s*/
+		len++; /* len now stores the number of chars in s*/
 
 	for (i = len; i >= 0; i--)
 		/* I is the characters */
