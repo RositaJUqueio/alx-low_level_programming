@@ -17,7 +17,7 @@ void print_rev(char *s)
 	while (s[i++] != 0)
 		len++; /* len now stores the number of chars in s*/
 
-	for (i = len; i >= 0; i--)
+	for (i = len - 1; i >= 0; i--)
 		/* I is the characters */
 		_putchar(s[i]);
 
