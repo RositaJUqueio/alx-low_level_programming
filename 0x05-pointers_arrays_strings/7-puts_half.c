@@ -17,8 +17,11 @@ void puts_half(char *str)
 	while (str[i++])
 		len++;
 
-	/* find position where second half of string is */
-	n = (len - 1) / 2 + 1;
+	if ((n % 2) == 0)
+		n = len / 2;
+
+	else
+		n = (len - 1) / 2;
 
 	/* printing second half of string */
 	for (i = n; i < len; i++)
