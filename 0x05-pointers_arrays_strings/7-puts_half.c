@@ -11,7 +11,7 @@
 
 void puts_half(char *str)
 {
-	int i, n, len = 0;
+	int i = 0, len = 0, n;
 
 	/* calculate string length */
 	while (str[i++])
@@ -21,7 +21,7 @@ void puts_half(char *str)
 		n = len / 2;
 
 	else
-		n = (len - 1) / 2;
+		n = (len + 1) / 2;
 
 	/* printing second half of string */
 	for (i = n; i < len; i++)
