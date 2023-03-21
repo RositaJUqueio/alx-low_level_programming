@@ -4,7 +4,7 @@
 /**
  * Auth: Rosita J Uqueio
  * Desc: header defines a macro
- *       SIZE abbreviation for the token 1024.
+ *       SIZE as an abbreviation for the token 1024.
  */
 
 #define SIZE 1024
