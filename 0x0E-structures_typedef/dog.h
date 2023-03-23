@@ -5,7 +5,7 @@
 
 /*
  * Desc: Define a new type struct dog
- * struct dog - new struct defined
+ * struct dog- new struct defined
  *  @name: name of dog.
  *  @age: dog age.
  *  @owner: owner name.
