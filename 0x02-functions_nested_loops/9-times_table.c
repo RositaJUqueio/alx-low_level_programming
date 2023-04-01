@@ -13,7 +13,7 @@ void times_table(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		_purchar('0');
+		_putchar('0');
 
 		for (mult = 1; mult <= 9; mult++)
 		{
