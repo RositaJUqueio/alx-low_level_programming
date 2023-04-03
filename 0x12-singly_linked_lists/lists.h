@@ -1,10 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/* header files I'll be using */
-#include <stdio.h>
-#include <stdlib.h>
-
 /* function prototypes */
 int _putchar(char c);
 size_t print_list(const list_t *h);

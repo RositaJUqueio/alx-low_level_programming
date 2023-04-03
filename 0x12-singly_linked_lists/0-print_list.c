@@ -1,6 +1,7 @@
 /* Auth: Rosita J Uqueio */
 
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_list -  prints all the
