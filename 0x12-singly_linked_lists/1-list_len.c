@@ -1,6 +1,6 @@
 /* Auth: Rosita J Uqueio */
 
-#st_len.cinclude "lists.h"
+#include "lists.h"
 
 /**
  * list_len -  returns the number of elements

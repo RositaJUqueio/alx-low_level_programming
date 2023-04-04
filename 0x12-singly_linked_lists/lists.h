@@ -1,13 +1,15 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stdlib.h>
+
+
 /**
  * struct list - singly linked list
- * @string: string
+ * @str: string
  * @len: length of string
  * @next: points to next node.
  */
-#include <stdlib.h>
 
 typedef struct list
 {
