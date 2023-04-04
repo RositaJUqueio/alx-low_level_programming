@@ -1,7 +1,6 @@
 /* Auth: Rosita J Uqueio */
 
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * list_len -  returns the number of elements
