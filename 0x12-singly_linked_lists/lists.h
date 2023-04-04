@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 /**
- * list - singly linked list
+ * struct list - singly linked list
  * @string: string
  * @len: length of string
  * @next: points to next node.
@@ -17,7 +17,7 @@ typedef struct list
 	char *string;
 	unsigned int len;
 	struct list *next;
-}list_t;
+} list_t;
 
 /* function prototypes */
 int _putchar(char c);
