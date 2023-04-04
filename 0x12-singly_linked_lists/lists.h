@@ -2,17 +2,18 @@
 #define LISTS_H
 
 /**
- * struct list_s - singly linked list
+ * struct list - singly linked list
  * @string: string
  * @len: length of string
  * @next: points to next node.
  */
+#include <stdlib.h>
 
-typedef struct list_s
+typedef struct list
 {
 	char *string;
 	unsigned int len;
-	struct list_s *next;
+	struct list *next;
 } list_t;
 
 /* function prototypes */
