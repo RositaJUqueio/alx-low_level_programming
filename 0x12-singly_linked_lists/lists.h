@@ -1,10 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/* headers ill be using */
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * struct list - singly linked list
  * @string: string
