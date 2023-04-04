@@ -22,21 +22,21 @@ list_t *add_node(list_t **head, const char *str)
 	if (new == NULL)
 		return (NULL);
 
-	dup = strdup(string);
+	dup = strdup(str);
 	if (dup == NULL)
 	{
 		free(new);
 		return (NULL);
 	}
 
-	for (len = 0; string[len];)
+	for (len = 0; str[len];)
 		len++;
 
-	new->string = dup;
+	new->str = dup;
 	new->len = len;
 	new->next = *head;
 
-	head = new;
+	*head = new;
 
 	return (new);
 
