@@ -1,5 +1,4 @@
 /* Auth: Rosita J Uqueio */
-
 #include <stdio.h>
 
 /**
@@ -18,12 +17,16 @@ int main(void)
 	{
 		for (j = i + 1; j < 100; j++)
 		{
+			/* print the digits of the first number*/
 			putchar ((i / 10) + '0');
 			putchar ((i % 10) + '0');
 			putchar (' ');
+
+			/*print the digits of the second number */
 			putchar ((j / 10) + '0');
 			putchar ((j % 10) + '0');
 
+			/*Add a comma & space after each pair except the last one*/
 			if (i == 98 && j == 99)
 				break;
 
@@ -31,5 +34,6 @@ int main(void)
 			putchar (' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
