@@ -1,5 +1,6 @@
 /* Auth: Rosita J Uqueio */
 
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,12 +14,12 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int result;
+	unsigned int result = 0;
 	/* result will hold the converted binary number*/
 
 	while (*b != '\0')
 	{
-		if (*b != 0 && *b != 1)
+		if (*b != '0' && *b != '1')
 			return (0);
 
 		result = result * 2 + (*b - '0'); /* (*b -'0') converts to int*/
