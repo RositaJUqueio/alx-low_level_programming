@@ -18,5 +18,5 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	if (index >= sizeof(unsigned long int) * 8)
 		/*we multiply the size in bytes by 8 to get the size in bits*/
-		return (-1)
+		return (-1);
 }
