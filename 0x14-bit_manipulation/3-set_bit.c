@@ -13,7 +13,7 @@
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	if ((index >= sizeof(unsigned long int) * 8)
+	if ((index >= sizeof(unsigned long int) * 8))
 			/* multiply by 8, we have 8 bit in a byte */
 	/* checks if index >= total number of bits in n*/
 			return (-1);
