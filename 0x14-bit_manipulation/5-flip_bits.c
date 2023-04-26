@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-/* Auth: Rosita J Uqueio */
-
-#include "main.h"
-
-/**
- * flip_bits - returns the number of bits you
- * need to flip to get from one number to another.
- * @n: 
- * @m:
- *
- * Return: e number of bits.
- */
-=======
 /* Auth: Rosita J Uqueio*/
 #include "main.h"
 
@@ -35,4 +21,4 @@ xor >>= 1;
 
 return (bits);
 }
->>>>>>> fc0e80c6104219a13a8b16faedf8aaa9c86526f2
+
