@@ -14,23 +14,24 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int n = 0, mult = 1;
-	int len;
+	unsigned int result = 0;
+	/* result will hold the converted binary number*/
 
-	if (b == '\0')
-		return (0);
-
-	for (len = 0; b[len];)
-		len++;
-
-	for (len -= 1; len >= 0; len--)
+	while (*b != '\0')
 	{
-		if (b[len] != '0' && b[len] != '1')
+		if (*b != '0' && *b != '1')
 			return (0);
 
-		n += (b[len] - '0') * mult;
-		mult *= 2;
+		result = result * 2 + (*b - '0'); /* (*b -'0') converts to int*/
+		/* (result * 2)- left shifts the bits*/
+		b++;
 	}
-
-	return (n);
+	if (b == NULL)
+	{
+		return (0);
+	}
+	else
+	{
+		return (result);
+	}
 }
